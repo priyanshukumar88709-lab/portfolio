@@ -35,11 +35,12 @@
         <!--Mobile Menu Icon-->
         <i id="menu" class="menu ri-menu-line sm:hidden text-2xl"></i>
       </div>
-      <div class="pt-16">
-      <div class="h-screen relative">
-        <img class="h-full w-full object-cover"
+      <div class="">
+      <div  id="main" class="h-screen relative">
+        <img class="h-full w-full hidden sm:block object-cover"
           src="https://imgs.search.brave.com/usHEhhUZI1aWBblL1BsoPgmTJ2xkFwx5WggEr4IbQ0Y/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE1/MzEyOTc0ODQwMDEt/ODAwMjIxMzFmNWEx/P2ZtPWpwZyZxPTYw/Jnc9MzAwMCZpeGxp/Yj1yYi00LjEuMCZp/eGlkPU0zd3hNakEz/ZkRCOE1IeHpaV0Z5/WTJoOE5IeDhiV0Zq/WW05dmEzeGxibnd3/Zkh3d2ZIeDhNQT09"
           alt="">
+          <img class="h-full w-full object-cover sm:hidden " src="https://imgs.search.brave.com/0LZse7uSKe_HtRGqwOwYrQcnxZNWuNS2uoxxmXW0GSQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93MC5w/ZWFrcHguY29tL3dh/bGxwYXBlci8zMy82/MjUvSEQtd2FsbHBh/cGVyLWFwcGxlLWFw/cGxlLWxvZ28taXBo/b25lLWxvZ28tcGhv/bmUtdGh1bWJuYWls/LmpwZw" alt="">
         <div class="absolute inset-0 h-full w-full flex pl-10 flex-col justify-center gap-5">
           <h1 class="text-white pl-8 text-3xl  sm:text-7xl">Start something that matters</h1>
           <p class="text-white pl-8 text-lg px-1 sm:text-3xl sm:font-thin">Stop wasting valuable time
@@ -48,7 +49,7 @@
             today</button>
         </div>
         </div>
-        <div class="absolute flex ml-10 bottom-10 sm:ml-10">
+        <div class="absolute  flex bottom-20 ml-15">
           <i class="ri-facebook-fill text-white text-2xl"></i>
           <i class="ri-instagram-line text-white text-2xl"></i>
           <i class="ri-snapchat-fill text-white text-2xl"></i>
@@ -193,12 +194,13 @@
 
       <div class="h-full w-full bg-[#D3D3D3] py-15">
         <div class="h-full flex flex-col  sm:flex-row sm:justify-center">
-          <div class="flex-1 pl-10 py-15  flex flex-col justify-center">
-            <h1 class="text-2xl">Our Skills.</h1>
-            <p class="pt-5 w-60 text-base font-normal sm:w-full">Lorem ipsum dolor sit amet consectetur adipisicing
+          <div class="flex-1 py-15  flex flex-col justify-center">
+            <h1 class="text-2xl flex justify-center">Our Skills.</h1>
+            <p class="pt-5 w-60 text-base font-normal sm:w-full pl-10">Lorem ipsum dolor sit amet consectetur adipisicing
               quaerat, sint rerum dolorem! <br> Quaerat eligendi nostrum perspiciatis labore doloribus tempore ipsum.
             </p>
-            <p class="pt-5 w-60 text-base font- sm:w-full">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+            <p class="pt-5 w-60 text-base font- sm:w-full
+            pl-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
               culpa perferendis libero <br> consectetur rerum aspernatur totam ab et eos ratione?</p>
           </div>
           <div class="h-full pl-10 py-10  flex-1 flex flex-col justify-center sm:gap-5">
@@ -306,7 +308,7 @@
 
       </div>
       <div class="h-full w-full bg-black flex items-center flex-col py-20">
-        <a href="#about">
+        <a href="#main">
         <button type="submit" class="button text-black h-12 w-40 bg-white text-lg">
           <i class="ri-arrow-up-fill pr-4 font-bold"></i>To the top</button>
         </a>
